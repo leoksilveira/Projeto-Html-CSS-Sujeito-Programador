@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-titulo{
+    height: 68px;
+    background-color: black;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-titulo h1{
+    font-size: 19px;
+}
+
+#wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 60px;
+}
+
+.container1, .container2, .container3{
+    display: flex;
+    flex-direction: column;
+    margin-top: -20px;
+    
+}
+
+.container1-text, .container2-text, .container3-text{
+    display: flex;
+    align-items: center;
+    
+}
+
+.container1-text h3, .container2-text h3, .container3-text h3{
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.container1-text img, .container2-text img, .container3-text img{
+    width: 40px;
+    border-radius: 30px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    
+}
+
+.container1-foto, .container2-foto, .container3-foto{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    
+    
+}
+    
+
+.container1-foto img, .container2-foto img, .container3-foto img{
+    border-radius: 10px;
+   
+    margin-bottom: 10px;
+    transition: 0.7s;
+    
+}
+
+.container1-foto img:hover, .container2-foto img:hover, .container3-foto img:hover{
+    transform: scale(1.02);
+}
+
+.links a{
+    color: black;
+    font-size: 14px;
+
+}
+.container2-text, .container3-text{
+    margin-top: 60px;
+}
+
+.container2-text h3, .container3-text h3{
+    margin-bottom: 15px;
+}
+
+
+    
+@media(max-width:490px){
+    .container1-text h3, .container2-text h3, .container3-text h3{
+        font-size: 13px;
+    }
+
+    .links a{
+        font-size: 12px;
+    }
+}
